@@ -7,14 +7,15 @@ type ActionType =
 export const homeWorkReducer = (state: any, action: any): any => { // need to fix any
     switch (action.type) {
         case 'sort': { // by name
-
+            // sort() создаёт новый массив?...
             return state // need to fix
         }
         case 'check': {
-
+            // filter() создаёт новый массив...
             return state // need to fix
         }
         default:
+
             return state
     }
 }
